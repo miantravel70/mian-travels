@@ -11,7 +11,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#172033;background:#fff}
 a{text-decoration:none;color:inherit}.top{background:var(--dark);color:#fff;text-align:center;padding:9px;font-size:14px}
 nav{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 2px 14px #0001;display:flex;align-items:center;justify-content:space-between;padding:10px 6%;gap:20px}
-.logo{height:400px;width:auto}.links{display:flex;gap:22px;align-items:center;font-weight:700;color:var(--blue)}.links a:hover{color:var(--gold)}
+.logo{height:66px;width:auto}.links{display:flex;gap:22px;align-items:center;font-weight:700;color:var(--blue)}.links a:hover{color:var(--gold)}
 .btn{display:inline-block;background:var(--blue);color:#fff;padding:13px 20px;border-radius:8px;font-weight:700}.btn:hover{background:#0d2c5b}
 .hero{background:linear-gradient(120deg,#eaf3fb 0%,#fff 60%);padding:80px 7%;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
 .hero h1{font-size:clamp(38px,5vw,68px);line-height:1.02;color:var(--dark);margin:10px 0}.hero h1 span{color:var(--blue)}.hero p{font-size:19px;line-height:1.7;color:#536074;max-width:650px}
@@ -23,13 +23,15 @@ nav{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 2px 14px #0001
 footer{background:#07182f;color:#cbd7e7;text-align:center;padding:30px 7%;line-height:1.7}.small{font-size:13px;color:#91a2bb}
 @media(max-width:850px){.links{display:none}.hero{grid-template-columns:1fr;padding:55px 6%}.grid{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}}
 @media(max-width:560px){.grid{grid-template-columns:1fr}.logo{height:55px}.section{padding:55px 6%}}
+
+.owner{display:grid;grid-template-columns:360px 1fr;gap:45px;align-items:center;max-width:1050px;margin:0 auto}.owner-photo{width:100%;height:430px;object-fit:cover;object-position:center top;border-radius:24px;box-shadow:0 18px 45px #123b7825;border:5px solid #fff}.owner-info .eyebrow{color:var(--gold);font-weight:800;letter-spacing:1px;text-transform:uppercase}.owner-info h3{font-size:40px;color:var(--dark);margin:10px 0 5px}.owner-info .role{font-size:18px;font-weight:700;color:var(--blue);margin-bottom:20px}.owner-info p{font-size:17px;line-height:1.8;color:#657084}@media(max-width:850px){.owner{grid-template-columns:1fr;max-width:600px}.owner-photo{height:420px}}
 </style>
 </head>
 <body>
 <div class="top">✈️ Mian International Travels — Burewala | Your Journey, Our Responsibility</div>
 <nav>
 <img src="logo.jpg" class="logo" alt="Mian International Travels logo">
-<div class="links"><a href="#services">Services</a><a href="#tours">Tours</a><a href="#about">About</a><a href="#contact">Contact</a><a class="btn" href="#contact">Get a Quote</a></div>
+<div class="links"><a href="#services">Services</a><a href="#tours">Tours</a><a href="#about">About</a><a href="#owner">Owner</a><a href="#contact">Contact</a><a class="btn" href="#contact">Get a Quote</a></div>
 </nav>
 
 <section class="hero">
@@ -70,6 +72,8 @@ footer{background:#07182f;color:#cbd7e7;text-align:center;padding:30px 7%;line-h
 <p class="lead">Based in Burewala, Mian International Travels provides practical travel assistance for individuals, families and groups. Our goal is simple: make travel planning easier and more dependable.</p>
 </section>
 
+
+<section class="section" id="owner"><h2>Meet the Owner</h2><p class="lead">Leadership behind Mian International Travels.</p><div class="owner"><img src="owner.jpg" class="owner-photo" alt="Mian Fahad Sabir"><div class="owner-info"><div class="eyebrow">Mian International Travels</div><h3>Mian Fahad Sabir</h3><div class="role">Owner &amp; Managing Director</div><p>With a commitment to professional service and customer satisfaction, Mian Fahad Sabir leads Mian International Travels with a focus on making travel planning simple, reliable and convenient.</p><p>From flight tickets and visas to tours, hotels, Umrah &amp; Hajj, and airport transfers, our team is here to support your journey from planning to departure.</p><a class="btn" href="#contact">Contact Our Team</a></div></div></section>
 <section class="section alt" id="contact">
 <h2>Contact Us</h2><p class="lead">Send an inquiry and we'll get back to you with the next steps.</p>
 <div class="contact">
