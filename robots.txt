@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://miantravel70.github.io/mian-travels/sitemap.xml
